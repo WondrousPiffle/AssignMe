@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nuffsaidm8.me.assignme.frags.GroupChatFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/homeButton"
+        android:background="@drawable/homeicon"
+        android:onClick="goHome"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/cr"
+        android:id="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginEnd="60dp" />
+
+    <ListView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:id="@+id/chatList"
+        android:choiceMode="none"
+        android:layout_below="@+id/homeButton"
+        android:layout_alignLeft="@+id/homeButton"
+        android:layout_alignStart="@+id/homeButton"
+        android:layout_marginTop="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+            <EditText
+                android:layout_width="225dp"
+                android:layout_height="80dp"
+                android:id="@+id/messageToSend"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="20dp" />
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/sendMessageButton"
+                android:background="@drawable/sendicon"
+                android:onClick="sendMessage"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

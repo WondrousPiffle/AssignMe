@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">AssignMe</string>
+    <string name="getStarted">Get Started</string>
+    <string name="title_newgroupactivity_list">Items</string>
+    <string name="title_newgroupactivity_detail">NewGroupActivity Detail</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cng">Create New Group</string>
+    <string name="seg">Select Existing Group</string>
+    <string name="goHome">goHome</string>
+    <string name="upperAdd">ADD</string>
+    <string name="addParts">Add Participants</string>
+    <string name="ngd">New Group Details</string>
+    <string name="gn">Group Name</string>
+    <string name="viewTasks">View Tasks</string>
+    <string name="showPassword">Show Password</string>
+    <string name="pass">Password</string>
+    <string name="togglePass">Toggle Password</string>
+    <string name="jeg">Join Existing Group</string>
+    <string name="gnac">Group Name</string>
+    <string name="passprevused">Password (Supplied for Previously Used Groups)</string>
+    <string name="savedFor">Saved For Previously Used Groups</string>
+    <string name="acfug">Autocomplete For Used Groups</string>
+    <string name="title_activity_group_login">Join Group</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="sc">Save Credentials</string>
+    <string name="acfsg">Autocompletes for saved groups</string>
+    <string name="pw">Password</string>
+    <string name="groupname">Group Name</string>
+    <string name="litg">Log In To Group</string>
+    <string name="gisg">Given if saved group</string>
+    <string name="acfkg">Autocompletes for known groups</string>
+    <string name="rp">Remember Password</string>
+    <string name="cr">Chat Room</string>
+    <string name="t">Tasks</string>
+    <string name="OK">OK</string>
+    <string name="CANCEL">CANCEL</string>
+    <string name="yn">Your Name</string>
+</resources>

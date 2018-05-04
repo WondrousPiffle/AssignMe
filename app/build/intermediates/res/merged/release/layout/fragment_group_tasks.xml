@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nuffsaidm8.me.assignme.frags.GroupTasksFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/addTask"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:onClick="addTask"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/newbutton"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/trashTask"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/trashicon"
+        android:layout_marginEnd="20dp"
+        android:onClick="deleteTask"
+        android:layout_alignTop="@+id/addTask"
+        android:layout_toLeftOf="@+id/addTask"
+        android:layout_toStartOf="@+id/addTask"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/t"
+        android:id="@+id/textView4"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/imageButton"
+        android:layout_toRightOf="@+id/imageButton"
+        android:layout_toEndOf="@+id/imageButton"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="20dp" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageButton"
+        android:background="@drawable/homeicon"
+        android:onClick="goHome"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tasksList"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:choiceMode="none" />
+
+</RelativeLayout>
